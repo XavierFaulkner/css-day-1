@@ -1,0 +1,66 @@
+html {
+    background-color: #e8e8e8;
+    text-align: center;
+}
+
+header {
+    background-color: #17408B;
+    margin: 0;
+    width: 100%;
+    color: white;
+}
+
+h1 {
+    padding: 5px;
+    margin: 0;
+}
+
+h2 {
+    color: #C9082A;
+}
+
+table {
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    min-width: 350px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.teamName {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #cecece;
+}
+
+[team-color = "heat"]:hover {
+    background-color: #98002E;
+    color: white;
+}
+
+[team-color = "bucks"]:hover {
+    background-color: #00471B;
+    color: white;
+}
+
+[team-color = "phily"]:hover {
+    background-color: #006BB6;
+    color: white;
+}
+
+[team-color = "bulls"]:hover {
+    background-color: #CE1141;
+    color: white;
+}
+
+[team-color = "celtics"]:hover {
+    background-color: #007A33;
+    color: white;
+}
